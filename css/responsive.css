@@ -1,0 +1,146 @@
+/* styles for responsiveness */
+
+/* =====================================
+=== Responsive for medium devices
+======================================== */
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner .colunm-layout {
+        display: column;
+        flex-direction: column-reverse;
+    }
+    
+    .banner .banner-img {
+        padding-right: 35px;
+    }
+    
+    .banner .banner-text {
+        padding-right: 187px !important;
+    }
+    
+    .banner .banner-text p {
+        padding-right: 45px;
+    }
+    
+    .casual-shoes h2, .formal-shoes h2 {
+        text-align: center;
+    }
+    
+    .display .display-text {
+        display: column;
+        flex-direction: column;
+    }
+    
+    .display .display-text .img-text {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .display .display-text .img-text p {
+        padding-right: 0;
+        padding: 0 80px;
+    }
+    
+    .display .display-text .img-text h3 {
+        margin-bottom: 13px;
+    }
+    
+    .contact .social-contact li:last-child {
+       display: none;
+    }
+
+}
+
+/* =====================================
+=== Responsive for small devices
+======================================== */
+@media (min-width: 576px) and (max-width: 767px) {
+    .banner .colunm-layout {
+        display: column;
+        flex-direction: column-reverse;
+    }
+    
+    .banner .banner-img {
+        padding-right: 35px;
+    }
+    
+    .banner .banner-text {
+        padding-right: 0 !important;
+    }
+    
+    .banner .banner-text p {
+        padding-right: 45px;
+    }
+    
+    .casual-shoes h2, .formal-shoes h2 {
+        text-align: center;
+    }
+    
+    .display .display-text {
+        display: column;
+        flex-direction: column;
+    }
+    
+    .display .display-text .img-text {
+        text-align: center;
+        margin-top: 25px;
+    }
+    .display .display-text .img-text p {
+        padding-right: 0;
+        padding: 0 80px;
+    }
+    
+    .display .display-text .img-text h3 {
+        margin-bottom: 13px;
+    }
+    
+    .contact .social-contact li:last-child {
+       display: none;
+    }
+}
+
+/* =====================================
+=== Responsive for extra-small devices
+======================================== */
+@media (max-width: 575px) {
+.banner .colunm-layout {
+    display: column;
+    flex-direction: column-reverse;
+}
+
+.banner .banner-img {
+    padding-right: 35px;
+}
+
+.banner .banner-text {
+    padding-left: 17px;
+}
+
+.banner .banner-text p {
+    padding-right: 45px;
+}
+
+.casual-shoes h2, .formal-shoes h2 {
+	text-align: center;
+}
+
+.display .display-text {
+    display: column;
+    flex-direction: column;
+}
+
+.display .display-text .img-text {
+    text-align: center;
+    margin-top: 25px;
+}
+.display .display-text .img-text p {
+    padding-right: 0;
+    padding: 0 80px;
+}
+
+.display .display-text .img-text h3 {
+    margin-bottom: 13px;
+}
+
+.contact .social-contact li:last-child {
+   display: none;
+}
+}

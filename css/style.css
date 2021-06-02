@@ -1,0 +1,375 @@
+/* ===========================
+   ===== Common CSS
+============================= */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol, li, span, a {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* ===========================
+==== HEADER SECTION
+============================= */
+.main_menu {
+    margin-top: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.main_menu .logo {
+    width: 290px;
+    height: 40px;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link {
+    padding: 0;
+    color: #3C3C3C;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    margin-right: 25px;
+    transition: color .3s;
+}
+
+.main_menu .navbar-nav .nav-item .nav-link:hover {
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+/* ===========================
+==== BANNER SECTION
+============================= */
+.banner {
+    background-color: #fff9f4;
+    padding: 80px 0;
+    position: relative;
+}
+
+.banner .banner-text {
+    padding-right: 155px;
+    margin-top: 90px;
+}
+
+.banner .banner-text .banner-button {
+    background-image: linear-gradient(to right, #3D4FF3, #3543BC);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 10px 17px;
+    border-radius: 5px;
+}
+
+.banner .banner-text h1 {
+    color: #363958;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.banner .banner-text span {
+    color: #fa804c;
+}
+
+.banner .banner-text p {
+    color: #3E3E3E;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:'Roboto', sans-serif;
+    line-height: 26px;
+    margin: 20px 0 25px 0;
+}
+
+/* ===========================
+==== CASUAL SHOES SECTION
+============================= */
+.casual-shoes {
+    padding: 90px 0;
+}
+
+.casual-shoes h2 {
+    color: #363958;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+.casual-shoes .card-image {
+    background-color: #f1f1f1;
+}
+
+.casual-shoes .product-title {
+    color: #363958;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+}
+.casual-shoes p {
+    color: #3E3E3E;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+}
+
+.casual-shoes .image-shadow{
+    padding: 20px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.07);
+    border: none;
+    border-radius: 10px;
+}
+
+.card-price span {
+    color: #FA804C;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin: 15px;
+}
+
+.card-price .button-price {
+    background-image: linear-gradient(to right, #3D4FF3, #3543BC);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 10px 17px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+/* ===========================
+==== FORMAL SHOES SECTION
+============================= */
+.formal-shoes {
+    padding-bottom: 90px;
+}
+
+.formal-shoes h2 {
+    color: #363958;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+.formal-shoes .product-title {
+    color: #363958;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+}
+.formal-shoes p {
+    color: #3E3E3E;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+}
+
+.formal-shoes .image-shadow{
+    padding: 20px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.07);
+    border: none;
+    border-radius: 10px;
+}
+
+.formal-shoes .card-price span {
+    color: #FA804C;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    margin: 15px;
+}
+
+.formal-shoes .card-price .button-price {
+    background-image: linear-gradient(to right, #3D4FF3, #3543BC);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 10px 17px;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+/* ===========================
+==== DISPLAY SECTION
+============================= */
+.display{
+    padding-bottom: 90px;
+}
+
+ .display-text {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.07);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+ #last-child {
+    margin-bottom: 0;
+}
+
+.display-text .img-text {
+    padding-left: 25px;
+}
+
+.display-text h3 {
+    color: #363958;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.display-text p {
+    color: #3E3E3E;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 26px;
+    padding-right: 95px;
+}
+
+.display-text .text-img .image-width {
+    width: 90px;
+}
+
+.display .display-img {
+    margin: 80px 0 0 70px;
+}
+
+/* ===========================
+==== CONTACT SECTION
+============================= */
+.contact {
+    padding: 90px 0;
+    background-color: #1f2350;
+}
+
+.contact .contact-text {
+    margin-bottom: 30px;
+}
+
+.contact h3 {
+    color: #eee;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+
+.contact p {
+    color: #eee;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+}
+
+.contact .social-contact {
+    position: relative;
+}
+
+.contact .social-contact li {
+    padding: 0 20px;
+   
+}
+
+.contact .social-contact li:last-child {
+    position: absolute;
+    left: 900px;
+    top: -15px;
+    background-color: #f63b82;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.contact .social-contact li:last-child:hover {
+    background-color: #eee;
+    color: #f63b82;
+}
+.contact .social-contact li:last-child:hover a {
+    color: #f63b82;
+}
+
+.contact .social-contact li:last-child a {
+   color: #eee;
+   position: absolute;
+   right: 2px;
+   text-align: center;
+   line-height: 50px;
+   font-size: 20px;
+   padding-right: 10px;
+}
+
+.contact .social-contact li a {
+    color: #eee;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    transition: all .3s;
+}
+.contact .social-contact li a:hover {
+    color: #f63b82;
+    
+}
+
+/* ===========================
+==== FOOTER SECTION
+============================= */
+.footer {
+    background-color: #171a3c;
+}
+
+#copyright {
+    color: #5d5b5b;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
